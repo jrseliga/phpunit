@@ -20,8 +20,8 @@ PHPUnit %s by Sebastian Bergmann and contributors.
 <testSuite xmlns="https://xml.phpunit.de/testSuite">
  <tests>
   <testClass name="PHPUnit\TestFixture\ListingTestsAndGroups\ExampleTest" file="%sExampleTest.php">
-   <testMethod id="PHPUnit\TestFixture\ListingTestsAndGroups\ExampleTest::testTwo" name="testTwo"/>
-   <testMethod id="PHPUnit\TestFixture\ListingTestsAndGroups\ExampleTest::testThree" name="testThree"/>
+   <testMethod id="PHPUnit\TestFixture\ListingTestsAndGroups\ExampleTest::testTwo" name="testTwo" file="%s" line="%d"/>
+   <testMethod id="PHPUnit\TestFixture\ListingTestsAndGroups\ExampleTest::testThree" name="testThree" file="%s" line="%d"/>
   </testClass>
  </tests>
  <groups>

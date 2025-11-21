@@ -20,10 +20,10 @@ PHPUnit %s by Sebastian Bergmann and contributors.
 <testSuite xmlns="https://xml.phpunit.de/testSuite">
  <tests>
   <testClass name="PHPUnit\TestFixture\ListingTestsAndGroups\ExampleExtendingAbstractTest" file="%sExampleExtendingAbstractTest.php">
-   <testMethod id="PHPUnit\TestFixture\ListingTestsAndGroups\ExampleExtendingAbstractTest::testOne" name="testOne"/>
+   <testMethod id="PHPUnit\TestFixture\ListingTestsAndGroups\ExampleExtendingAbstractTest::testOne" name="testOne" file="%s" line="%d"/>
   </testClass>
   <testClass name="PHPUnit\TestFixture\ListingTestsAndGroups\ExampleTest" file="%sExampleTest.php">
-   <testMethod id="PHPUnit\TestFixture\ListingTestsAndGroups\ExampleTest::testOne" name="testOne"/>
+   <testMethod id="PHPUnit\TestFixture\ListingTestsAndGroups\ExampleTest::testOne" name="testOne" file="%s" line="%d"/>
   </testClass>
  </tests>
  <groups>

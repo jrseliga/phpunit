@@ -86,6 +86,8 @@ final readonly class ListTestsAsXmlCommand implements Command
                 $writer->startElement('testMethod');
                 $writer->writeAttribute('id', $test->valueObjectForEvents()->id());
                 $writer->writeAttribute('name', $test->valueObjectForEvents()->methodName());
+                $writer->writeAttribute('file', $test->valueObjectForEvents()->file());
+                $writer->writeAttribute('line', (string) $test->valueObjectForEvents()->line());
                 $writer->endElement();
 
                 continue;
