@@ -1,8 +1,8 @@
 # Add `file` and `line` attributes to `--list-tests-xml` output
 
-This PR adds new attributes to `<testMethod>` elements:
-- `file`: Where the test method is actually defined
-- `line`: What line it starts on
+Simple PR adding new attributes to `<testMethod>` elements:
+- `file`
+- `line`
 
 **Before:**
 ```xml
